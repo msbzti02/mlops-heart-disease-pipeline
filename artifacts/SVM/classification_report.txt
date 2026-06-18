@@ -1,0 +1,19 @@
+Classification Report — SVM
+==================================================
+              precision    recall  f1-score   support
+
+  No Disease       0.98      0.71      0.82     77525
+     Disease       0.21      0.82      0.33      7348
+
+    accuracy                           0.71     84873
+   macro avg       0.59      0.76      0.58     84873
+weighted avg       0.91      0.71      0.78     84873
+
+==================================================
+AUC: 0.8274
+MCC: 0.3100
+Cohen's Kappa: 0.2246
+Log Loss: 0.5108
+Avg Precision: 0.2779
+Training Time: 124.27s
+Compute: CPU (NVIDIA GeForce RTX 3060)

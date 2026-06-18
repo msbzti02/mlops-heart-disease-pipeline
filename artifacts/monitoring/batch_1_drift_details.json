@@ -1,0 +1,180 @@
+{
+  "batch": 1,
+  "drift_percentage": 0.0,
+  "dataset_drift": false,
+  "n_features_drifted": 0,
+  "total_features": 34,
+  "injected_drift": false,
+  "feature_results": {
+    "Age": {
+      "statistic": 0.0132,
+      "p_value": 0.7764175867140878,
+      "drifted": false
+    },
+    "AlcoholDrinking": {
+      "statistic": 0.0074,
+      "p_value": 0.999175871337284,
+      "drifted": false
+    },
+    "Asthma": {
+      "statistic": 0.0002,
+      "p_value": 0.9999999999999996,
+      "drifted": false
+    },
+    "BMI": {
+      "statistic": 0.013,
+      "p_value": 0.7920669467755587,
+      "drifted": false
+    },
+    "Diabetic": {
+      "statistic": 0.0032,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "DiffWalking": {
+      "statistic": 0.003,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "GenHealth": {
+      "statistic": 0.0112,
+      "p_value": 0.9124660059809748,
+      "drifted": false
+    },
+    "KidneyDisease": {
+      "statistic": 0.0052,
+      "p_value": 0.999999886910226,
+      "drifted": false
+    },
+    "MentalHealth": {
+      "statistic": 0.0132,
+      "p_value": 0.7764175867140878,
+      "drifted": false
+    },
+    "PhysicalActivity": {
+      "statistic": 0.0038,
+      "p_value": 0.9999999999999817,
+      "drifted": false
+    },
+    "PhysicalHealth": {
+      "statistic": 0.0044,
+      "p_value": 0.9999999999051078,
+      "drifted": false
+    },
+    "Race_Black": {
+      "statistic": 0.0028,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "Race_Hispanic": {
+      "statistic": 0.0054,
+      "p_value": 0.9999995889077685,
+      "drifted": false
+    },
+    "Race_Other": {
+      "statistic": 0.0022,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "Race_White": {
+      "statistic": 0.011,
+      "p_value": 0.9228576562607886,
+      "drifted": false
+    },
+    "Sex": {
+      "statistic": 0.0032,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "SkinCancer": {
+      "statistic": 0.0016,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "SleepTime": {
+      "statistic": 0.0088,
+      "p_value": 0.9902825317566453,
+      "drifted": false
+    },
+    "Smoking": {
+      "statistic": 0.0042,
+      "p_value": 0.9999999999917566,
+      "drifted": false
+    },
+    "Stroke": {
+      "statistic": 0.002,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "age_squared": {
+      "statistic": 0.0112,
+      "p_value": 0.9124660059809748,
+      "drifted": false
+    },
+    "age_bin": {
+      "statistic": 0.0132,
+      "p_value": 0.7764175867140878,
+      "drifted": false
+    },
+    "is_senior": {
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "bmi_squared": {
+      "statistic": 0.0104,
+      "p_value": 0.9497279530823978,
+      "drifted": false
+    },
+    "bmi_category": {
+      "statistic": 0.001,
+      "p_value": 0.9999999999999997,
+      "drifted": false
+    },
+    "is_obese": {
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "total_health_burden": {
+      "statistic": 0.0118,
+      "p_value": 0.8772886704265563,
+      "drifted": false
+    },
+    "health_ratio": {
+      "statistic": 0.0082,
+      "p_value": 0.9960352862019011,
+      "drifted": false
+    },
+    "risk_factor_count": {
+      "statistic": 0.0084,
+      "p_value": 0.9945325022916379,
+      "drifted": false
+    },
+    "sleep_deviation": {
+      "statistic": 0.0088,
+      "p_value": 0.9902825317566453,
+      "drifted": false
+    },
+    "poor_sleep": {
+      "statistic": 0.0002,
+      "p_value": 0.9999999999999996,
+      "drifted": false
+    },
+    "age_x_bmi": {
+      "statistic": 0.016,
+      "p_value": 0.5441874830769005,
+      "drifted": false
+    },
+    "age_x_smoking": {
+      "statistic": 0.0114,
+      "p_value": 0.901388591127366,
+      "drifted": false
+    },
+    "genhealth_x_physical": {
+      "statistic": 0.0098,
+      "p_value": 0.9700086086428356,
+      "drifted": false
+    }
+  }
+}

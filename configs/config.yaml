@@ -1,0 +1,76 @@
+# ============================================================
+# MLOps Term Project v2 - Configuration
+# Heart Disease Prediction with MLflow
+# ============================================================
+
+project:
+  name: "heart-disease-prediction"
+  author: "Student"
+  course: "AIN-3009 MLOps"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  primary_dataset: "heart_2020_cleaned.csv"
+  datasets:
+    - "heart_2020_cleaned.csv"
+    - "heart_2022_no_nans.csv"
+    - "heart.csv"
+    - "heart_disease_uci.csv"
+    - "heart_cleveland_upload.csv"
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 42
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "HeartDisease_Experiments"
+  registry_model_name: "HeartDiseasePredictor"
+
+models:
+  gradient_boosting:
+    n_estimators: 200
+    max_depth: 5
+    learning_rate: 0.1
+    subsample: 0.8
+    min_samples_split: 10
+    random_state: 42
+
+  svm:
+    C: 1.0
+    kernel: "rbf"
+    gamma: "scale"
+    probability: true
+    random_state: 42
+
+  knn:
+    n_neighbors: 7
+    weights: "distance"
+    metric: "minkowski"
+
+  decision_tree:
+    max_depth: 10
+    min_samples_split: 10
+    min_samples_leaf: 5
+    random_state: 42
+
+  mlp_neural_network:
+    hidden_layer_sizes: [128, 64, 32]
+    activation: "relu"
+    solver: "adam"
+    max_iter: 500
+    early_stopping: true
+    random_state: 42
+
+tuning:
+  n_trials: 50
+  metric: "auc"
+
+serving:
+  host: "0.0.0.0"
+  port: 8080
+
+monitoring:
+  n_batches: 5
+  batch_size: 5000
+  drift_threshold: 0.25

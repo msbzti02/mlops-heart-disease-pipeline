@@ -1,0 +1,18 @@
+{
+  "n_estimators": [
+    100,
+    150,
+    200,
+    300,
+    400,
+    500
+  ],
+  "max_depth": "quniform(3, 12, 1)",
+  "learning_rate": "loguniform(0.005, 0.3)",
+  "subsample": "uniform(0.5, 1.0)",
+  "colsample_bytree": "uniform(0.5, 1.0)",
+  "min_child_weight": "quniform(1, 20, 1)",
+  "gamma": "uniform(0, 5)",
+  "reg_alpha": "loguniform(1e-8, 10)",
+  "reg_lambda": "loguniform(1e-8, 10)"
+}

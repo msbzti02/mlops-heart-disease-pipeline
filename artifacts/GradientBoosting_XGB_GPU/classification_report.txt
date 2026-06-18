@@ -1,0 +1,19 @@
+Classification Report — GradientBoosting_XGB_GPU
+==================================================
+              precision    recall  f1-score   support
+
+  No Disease       0.93      0.95      0.94     77525
+     Disease       0.35      0.27      0.30      7348
+
+    accuracy                           0.89     84873
+   macro avg       0.64      0.61      0.62     84873
+weighted avg       0.88      0.89      0.89     84873
+
+==================================================
+AUC: 0.8225
+MCC: 0.2502
+Cohen's Kappa: 0.2477
+Log Loss: 0.2646
+Avg Precision: 0.2962
+Training Time: 1.76s
+Compute: GPU (NVIDIA GeForce RTX 3060)

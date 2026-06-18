@@ -1,0 +1,180 @@
+{
+  "batch": 3,
+  "drift_percentage": 0.0,
+  "dataset_drift": false,
+  "n_features_drifted": 0,
+  "total_features": 34,
+  "injected_drift": false,
+  "feature_results": {
+    "Age": {
+      "statistic": 0.0166,
+      "p_value": 0.49623226435327117,
+      "drifted": false
+    },
+    "AlcoholDrinking": {
+      "statistic": 0.0046,
+      "p_value": 0.9999999992035721,
+      "drifted": false
+    },
+    "Asthma": {
+      "statistic": 0.002,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "BMI": {
+      "statistic": 0.011,
+      "p_value": 0.9228576562607886,
+      "drifted": false
+    },
+    "Diabetic": {
+      "statistic": 0.0042,
+      "p_value": 0.9999999999917566,
+      "drifted": false
+    },
+    "DiffWalking": {
+      "statistic": 0.0028,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "GenHealth": {
+      "statistic": 0.01,
+      "p_value": 0.963973606015013,
+      "drifted": false
+    },
+    "KidneyDisease": {
+      "statistic": 0.0074,
+      "p_value": 0.999175871337284,
+      "drifted": false
+    },
+    "MentalHealth": {
+      "statistic": 0.0168,
+      "p_value": 0.48067530684717075,
+      "drifted": false
+    },
+    "PhysicalActivity": {
+      "statistic": 0.0036,
+      "p_value": 0.9999999999999997,
+      "drifted": false
+    },
+    "PhysicalHealth": {
+      "statistic": 0.0078,
+      "p_value": 0.998074821542227,
+      "drifted": false
+    },
+    "Race_Black": {
+      "statistic": 0.0042,
+      "p_value": 0.9999999999917566,
+      "drifted": false
+    },
+    "Race_Hispanic": {
+      "statistic": 0.0046,
+      "p_value": 0.9999999992035721,
+      "drifted": false
+    },
+    "Race_Other": {
+      "statistic": 0.002,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "Race_White": {
+      "statistic": 0.0048,
+      "p_value": 0.9999999948673389,
+      "drifted": false
+    },
+    "Sex": {
+      "statistic": 0.0094,
+      "p_value": 0.9799982681374148,
+      "drifted": false
+    },
+    "SkinCancer": {
+      "statistic": 0.0008,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "SleepTime": {
+      "statistic": 0.0136,
+      "p_value": 0.7442740260220542,
+      "drifted": false
+    },
+    "Smoking": {
+      "statistic": 0.0088,
+      "p_value": 0.9902825317566453,
+      "drifted": false
+    },
+    "Stroke": {
+      "statistic": 0.0032,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "age_squared": {
+      "statistic": 0.0236,
+      "p_value": 0.12345636412932025,
+      "drifted": false
+    },
+    "age_bin": {
+      "statistic": 0.0026,
+      "p_value": 0.9999999999999997,
+      "drifted": false
+    },
+    "is_senior": {
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "bmi_squared": {
+      "statistic": 0.0168,
+      "p_value": 0.48067530684717075,
+      "drifted": false
+    },
+    "bmi_category": {
+      "statistic": 0.0024,
+      "p_value": 0.9999999999999999,
+      "drifted": false
+    },
+    "is_obese": {
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "total_health_burden": {
+      "statistic": 0.0168,
+      "p_value": 0.48067530684717075,
+      "drifted": false
+    },
+    "health_ratio": {
+      "statistic": 0.0162,
+      "p_value": 0.5280052696004953,
+      "drifted": false
+    },
+    "risk_factor_count": {
+      "statistic": 0.0116,
+      "p_value": 0.8896523693694147,
+      "drifted": false
+    },
+    "sleep_deviation": {
+      "statistic": 0.0136,
+      "p_value": 0.7442740260220542,
+      "drifted": false
+    },
+    "poor_sleep": {
+      "statistic": 0.0002,
+      "p_value": 0.9999999999999996,
+      "drifted": false
+    },
+    "age_x_bmi": {
+      "statistic": 0.0176,
+      "p_value": 0.42096355203665886,
+      "drifted": false
+    },
+    "age_x_smoking": {
+      "statistic": 0.0184,
+      "p_value": 0.36574412679100876,
+      "drifted": false
+    },
+    "genhealth_x_physical": {
+      "statistic": 0.0122,
+      "p_value": 0.8508219458664311,
+      "drifted": false
+    }
+  }
+}

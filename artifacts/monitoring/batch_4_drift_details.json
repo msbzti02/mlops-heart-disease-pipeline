@@ -1,0 +1,180 @@
+{
+  "batch": 4,
+  "drift_percentage": 0.0,
+  "dataset_drift": false,
+  "n_features_drifted": 0,
+  "total_features": 34,
+  "injected_drift": false,
+  "feature_results": {
+    "Age": {
+      "statistic": 0.0156,
+      "p_value": 0.5770455454055606,
+      "drifted": false
+    },
+    "AlcoholDrinking": {
+      "statistic": 0.018,
+      "p_value": 0.3927625063294053,
+      "drifted": false
+    },
+    "Asthma": {
+      "statistic": 0.0008,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "BMI": {
+      "statistic": 0.0128,
+      "p_value": 0.8073761670585852,
+      "drifted": false
+    },
+    "Diabetic": {
+      "statistic": 0.0058,
+      "p_value": 0.9999963463668458,
+      "drifted": false
+    },
+    "DiffWalking": {
+      "statistic": 0.0052,
+      "p_value": 0.999999886910226,
+      "drifted": false
+    },
+    "GenHealth": {
+      "statistic": 0.0126,
+      "p_value": 0.8223009941322108,
+      "drifted": false
+    },
+    "KidneyDisease": {
+      "statistic": 0.0026,
+      "p_value": 0.9999999999999997,
+      "drifted": false
+    },
+    "MentalHealth": {
+      "statistic": 0.0176,
+      "p_value": 0.42096355203665886,
+      "drifted": false
+    },
+    "PhysicalActivity": {
+      "statistic": 0.0052,
+      "p_value": 0.999999886910226,
+      "drifted": false
+    },
+    "PhysicalHealth": {
+      "statistic": 0.0094,
+      "p_value": 0.9799982681374148,
+      "drifted": false
+    },
+    "Race_Black": {
+      "statistic": 0.0142,
+      "p_value": 0.6945834812298466,
+      "drifted": false
+    },
+    "Race_Hispanic": {
+      "statistic": 0.0012,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "Race_Other": {
+      "statistic": 0.0016,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "Race_White": {
+      "statistic": 0.019,
+      "p_value": 0.327510623300811,
+      "drifted": false
+    },
+    "Sex": {
+      "statistic": 0.0016,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "SkinCancer": {
+      "statistic": 0.0034,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "SleepTime": {
+      "statistic": 0.0058,
+      "p_value": 0.9999963463668458,
+      "drifted": false
+    },
+    "Smoking": {
+      "statistic": 0.0098,
+      "p_value": 0.9700086086428356,
+      "drifted": false
+    },
+    "Stroke": {
+      "statistic": 0.0002,
+      "p_value": 0.9999999999999996,
+      "drifted": false
+    },
+    "age_squared": {
+      "statistic": 0.013,
+      "p_value": 0.7920669467755587,
+      "drifted": false
+    },
+    "age_bin": {
+      "statistic": 0.0124,
+      "p_value": 0.8367973787613723,
+      "drifted": false
+    },
+    "is_senior": {
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "bmi_squared": {
+      "statistic": 0.0198,
+      "p_value": 0.2808939724267857,
+      "drifted": false
+    },
+    "bmi_category": {
+      "statistic": 0.002,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "is_obese": {
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "total_health_burden": {
+      "statistic": 0.0242,
+      "p_value": 0.10697090744102715,
+      "drifted": false
+    },
+    "health_ratio": {
+      "statistic": 0.0242,
+      "p_value": 0.10697090744102715,
+      "drifted": false
+    },
+    "risk_factor_count": {
+      "statistic": 0.0112,
+      "p_value": 0.9124660059809748,
+      "drifted": false
+    },
+    "sleep_deviation": {
+      "statistic": 0.0058,
+      "p_value": 0.9999963463668458,
+      "drifted": false
+    },
+    "poor_sleep": {
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "drifted": false
+    },
+    "age_x_bmi": {
+      "statistic": 0.0242,
+      "p_value": 0.10697090744102715,
+      "drifted": false
+    },
+    "age_x_smoking": {
+      "statistic": 0.0114,
+      "p_value": 0.901388591127366,
+      "drifted": false
+    },
+    "genhealth_x_physical": {
+      "statistic": 0.0168,
+      "p_value": 0.48067530684717075,
+      "drifted": false
+    }
+  }
+}

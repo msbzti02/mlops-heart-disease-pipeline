@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.714927008589304,
+  "balanced_accuracy": 0.7611066820069807,
+  "f1_score": 0.33164829700836995,
+  "precision": 0.20805462170311578,
+  "recall": 0.8169569951007076,
+  "auc": 0.8273855870680731,
+  "specificity": 0.7052563689132538,
+  "log_loss": 0.5108326377289151,
+  "mcc": 0.31001763783536335,
+  "cohen_kappa": 0.22464401943861212,
+  "avg_precision": 0.2778888560642808,
+  "true_positives": 6003,
+  "true_negatives": 54675,
+  "false_positives": 22850,
+  "false_negatives": 1345,
+  "training_time_seconds": 124.27176690101624
+}

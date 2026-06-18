@@ -1,0 +1,19 @@
+Classification Report — NeuralNetwork_PyTorch_GPU
+==================================================
+              precision    recall  f1-score   support
+
+  No Disease       0.97      0.76      0.85     77525
+     Disease       0.23      0.73      0.35      7348
+
+    accuracy                           0.76     84873
+   macro avg       0.60      0.75      0.60     84873
+weighted avg       0.90      0.76      0.81     84873
+
+==================================================
+AUC: 0.8242
+MCC: 0.3092
+Cohen's Kappa: 0.2463
+Log Loss: 0.4585
+Avg Precision: 0.3110
+Training Time: 179.07s
+Compute: GPU (NVIDIA GeForce RTX 3060)

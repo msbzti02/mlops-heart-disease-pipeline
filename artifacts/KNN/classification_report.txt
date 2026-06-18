@@ -1,0 +1,19 @@
+Classification Report — KNN
+==================================================
+              precision    recall  f1-score   support
+
+  No Disease       0.95      0.80      0.87     77525
+     Disease       0.21      0.56      0.30      7348
+
+    accuracy                           0.77     84873
+   macro avg       0.58      0.68      0.58     84873
+weighted avg       0.89      0.77      0.82     84873
+
+==================================================
+AUC: 0.7388
+MCC: 0.2356
+Cohen's Kappa: 0.1999
+Log Loss: 2.5302
+Avg Precision: 0.1972
+Training Time: 0.19s
+Compute: CPU (NVIDIA GeForce RTX 3060)

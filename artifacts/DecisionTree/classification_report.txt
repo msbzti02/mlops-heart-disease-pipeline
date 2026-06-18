@@ -1,0 +1,19 @@
+Classification Report — DecisionTree
+==================================================
+              precision    recall  f1-score   support
+
+  No Disease       0.95      0.88      0.91     77525
+     Disease       0.28      0.49      0.36      7348
+
+    accuracy                           0.85     84873
+   macro avg       0.61      0.69      0.63     84873
+weighted avg       0.89      0.85      0.86     84873
+
+==================================================
+AUC: 0.8126
+MCC: 0.2902
+Cohen's Kappa: 0.2761
+Log Loss: 0.3232
+Avg Precision: 0.2771
+Training Time: 6.14s
+Compute: CPU (NVIDIA GeForce RTX 3060)

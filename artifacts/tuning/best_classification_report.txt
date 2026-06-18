@@ -1,0 +1,14 @@
+Best Tuned Model — Classification Report
+==================================================
+              precision    recall  f1-score   support
+
+  No Disease       0.96      0.84      0.90     77525
+     Disease       0.27      0.62      0.38      7348
+
+    accuracy                           0.82     84873
+   macro avg       0.61      0.73      0.64     84873
+weighted avg       0.90      0.82      0.85     84873
+
+AUC: 0.8331
+MCC: 0.3255
+Training Time: 2.09s
