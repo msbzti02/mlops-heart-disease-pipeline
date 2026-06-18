@@ -516,7 +516,7 @@ flowchart LR
 
 # Contributors
 
-* **Ali Hawala** - *Lead Engineer / MLOps Architect*
+* **MOURAD SLEEM** - *Lead Engineer / MLOps Architect*
 
 ---
 
